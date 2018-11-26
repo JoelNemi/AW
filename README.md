@@ -12,3 +12,7 @@
 </body>
 </html>
 ```
+2.-Explica las 3 formas de usar CSS en HTML
+hola
+hola
+```html
