@@ -78,4 +78,38 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 ```html
 <a href="https://www.google.com" target="_blank">Ejercicio 6</a> 
 ```
-7.-¿Qué son las pseudoclases?, pon ejemplos.<br>
+7.-¿Qué son las pseudoclases?, pon ejemplos.<br><br>
+Se utiliza para definir un estado a un elemento. Da estilos cuando pasamos el cursor por encima del texto, cuando el enlace<br>
+ha sido visitado o cuando no han sido visitados o en una caja de texto cuando lo has seleccionado.
+	```html
+	<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Cuando el link no esta visitado*/
+a:link {
+    color: orange;
+}
+
+/* Cuando el link esta visitado */
+a:visited {
+    color: purple;
+}
+
+/* Cuando pasas el raton por encima */
+a:hover {
+    color: red;
+}
+
+/* cuando lo seleccionas */
+a:active {
+    color: blue;
+}
+</style>
+</head>
+<body>
+
+<p><a href="https://www.google.com" target="_blank">Ejercicio 7</a></p>
+</body>
+</html>
+	```
