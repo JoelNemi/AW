@@ -63,3 +63,10 @@ Por ultimo crear un archivo CSS y enlazarlo con el html
 	<li>Ajo</li>
 </ul>
 ```
+4.-Como se puede incluir javascript en HTML <br>
+ Se incorpora con la etiqueta <script>
+```html
+	<script>
+	document.getElementById("Prueba").innerHTML = "Prueba JavaScript";
+</script>
+```
