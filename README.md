@@ -1,5 +1,5 @@
 # AW
-Paginas Web
+## Paginas Web
 1.-Estructura mínima de una web
 ```html
 <!DOCTYPE html>
