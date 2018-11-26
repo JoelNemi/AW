@@ -21,7 +21,7 @@ La primera forma es en la misma linea<br>
 La segunda forma es en un <style> dentro del elemento <head> <br>
 -Ejemplo:
 ```html
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -37,3 +37,20 @@ p    {
 </body>
 </html>
 ```
+Por ultimo crear un archivo CSS y enlazarlo con el html
+#Ejemplo:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<h1>Cabecera</h1>
+<p>Un paragrafo.</p>
+
+</body>
+</html>
+```
+3.-
