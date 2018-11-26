@@ -55,5 +55,11 @@ Por ultimo crear un archivo CSS y enlazarlo con el html
 ```
 3.-Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 ```html
-
+<ul>
+	<li>arina</li>
+	<li>Limón</li>
+	<li>Pimienta</li>
+	<li>Sal</li>
+	<li>Ajo</li>
+</ul>
 ```
