@@ -70,3 +70,12 @@ Por ultimo crear un archivo CSS y enlazarlo con el html
 	document.getElementById("Prueba").innerHTML = "Prueba JavaScript";
 </script>
 ```
+5.-¿Que diferencia hay entre una clase y una ID <br>
+	Una clase engloba varios elementos para que tengan el mismo codigo CSS, "p" y "h2" pueden tener la misma clase, <br>
+	en cambio un ID solo puede haber un ID unico que pertenezca a un elemento aparte el Id diferencia entre minusculas y <br> 
+	mayusculas, y no puede contener un espacio ni tabulaciones, al conterio que una clase.<br>
+6.-Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+```html
+<a href="https://www.google.com" target="_blank">Ejercicio 6</a> 
+```
+7.-¿Qué son las pseudoclases?, pon ejemplos.<br>
