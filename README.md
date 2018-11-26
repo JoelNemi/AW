@@ -13,6 +13,12 @@
 </html>
 ```
 2.-Explica las 3 formas de usar CSS en HTML <br>
-hola <br>
-hola
+La primera forma es en la misma linea<br>
+####Ejemplo:
 ```html
+<p style="color:blue;">Ejemplo de CSS en la misma linea</p>
+```
+La segunda forma es en un <style> dentro del elemento <head>
+####Ejemplo:
+```html
+```
