@@ -115,10 +115,11 @@ a:active {
 <p><a href="https://www.google.com" target="_blank">Ejercicio 7</a></p>
 </body>
 </html>
+```
 
 También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p<br>
 cuando el cursor esta encima del DIV<br>
-
+```html
 <html>
 <head>
 <style>
@@ -143,6 +144,7 @@ div:hover p {
 
 </body>
 </html>
+```
 Y Tambien estan la pseudo clases de primer hijo, por ejemplo, si tienes un DIV y solo al primer hijo le quieres dar<br>
 un estado puedes con el comando <code>div:first-child</code> en el style del HTML
 -Ejemplo:
