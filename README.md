@@ -117,7 +117,7 @@ a:active {
 </html>
 ```
 
-También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p<br>
+También puedes usarlo en DIVs o en <code>p</code>, por ejemplo puedes hacer que aparezca el <code>p</code><br>
 cuando el cursor esta encima del DIV<br>
 ```html
 <html>
@@ -155,7 +155,7 @@ p i:first-child {
     
 } 
 ```
-Y en el p que quieres editar seria por ejemplo:
+Y en el <code>p</code> que quieres editar seria por ejemplo:
 ```html
 <p>Es el <i>Ejercicio 7</i> de la  <i>asignatura</i> Aplicaciones WEB </p>
 ```
@@ -343,4 +343,14 @@ el padding, que es lo que hay entre el border y el contenido, se usa para despla
 a tu gusto el contenido dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocado,<br>
 ya sea un DIV, una imagen o lo que sea.
 <br><br>
-<b>9.-Explica que son los selectores de CSS y pon ejemplos</b>
+<b>9.-Explica que son los selectores de CSS y pon ejemplos</b><br><br>
+<b>Di a quien afectan:</b><br><br>
+
+<code>p a { color: red;}</code> Afecta a todas las <code>a</code> dentro de <code>p</code>
+<code>p > a { color: red; }</code> Afecta a los hijos directos <code>a</code> dentro de <code>p</code>
+<code>h1 + h2 { color: red }</code> Afecta al primer elemento <code>h2</code> despues de <code>h1</code>
+<code>a[class] { color: blue; }</code> El link se pone de color azul en todos los estados, y afecta<br>
+a todos los links que tengan cualquier class
+<code>a[class="externo"] { color: blue; }</code> El link se pone de color azul en todos los estados, y afecta<br>
+a todos los links que tengan la class "externo"<br>
+<code>a[href="http://www.ejemplo.com"] { color: blue; }</code> Afecta al link mencionado entre la comillas
