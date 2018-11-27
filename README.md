@@ -112,9 +112,8 @@ a:active {
 <p><a href="https://www.google.com" target="_blank">Ejercicio 7</a></p>
 </body>
 </html>
-	```
+
 También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p cuando el cursor esta encima del DIV<br>
-```html
 
 <html>
 <head>
