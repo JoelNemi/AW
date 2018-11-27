@@ -56,7 +56,7 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 <b>3.-Crea una lista sin ordenar con 5 ingredientes de una receta de cocina</b>
 ```html
 <ul>
-	<li>arina</li>
+	<li>Harina</li>
 	<li>Limón</li>
 	<li>Pimienta</li>
 	<li>Sal</li>
@@ -334,12 +334,12 @@ Influye a cada elemento <code>p</code> que es el segundo hijo de su padre, conta
 
 </body>
 </html>
-<b>8.-Explica el modelo de caja de CSS (margin, border y padding)</b><br>
+<b>8.-Explica el modelo de caja de CSS (margin, border y padding)</b><br><br>
 El modelo de caja de CSS se basa en que en cada elemento contiene un conjunto de elementos que le rodean.<br>
 Esos elementos son, el mas externo es el margin, que limpia lo que haya en un area x por fuera del Border,<br>
 despues esta el Border, que esta alrededor del contenido, a continuacion esta <br>
 el padding, que es lo que hay entre el border y el contenido, se usa para desplazar y colocar<br>
 a tu gusto el contenido dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocado,<br>
 ya sea un DIV,<br> una imagen o lo que sea.
-
+<br>
 <b>9.-Explica que son los selectores de CSS y pon ejemplos</b>
