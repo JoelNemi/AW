@@ -143,7 +143,6 @@ div:hover p {
 
 </body>
 </html>
-```
 Y Tambien estan la pseudo clases de primer hijo, por ejemplo, si tienes un DIV y solo al primer hijo le quieres dar<br>
 un estado puedes con el comando <code>div:first-child</code> en el style del HTML
 -Ejemplo:
@@ -340,6 +339,6 @@ Esos elementos son, el mas externo es el margin, que limpia lo que haya en un ar
 despues esta el Border, que esta alrededor del contenido, a continuacion esta <br>
 el padding, que es lo que hay entre el border y el contenido, se usa para desplazar y colocar<br>
 a tu gusto el contenido dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocado,<br>
-ya sea un DIV,<br> una imagen o lo que sea.
-<br>
+ya sea un DIV, una imagen o lo que sea.
+<br><br>
 <b>9.-Explica que son los selectores de CSS y pon ejemplos</b>
