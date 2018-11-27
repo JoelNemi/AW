@@ -116,7 +116,8 @@ a:active {
 </body>
 </html>
 
-También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p cuando el cursor esta encima del DIV<br>
+También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p<br>
+cuando el cursor esta encima del DIV<br>
 
 <html>
 <head>
@@ -158,4 +159,4 @@ Y en el p que quieres editar seria por ejemplo:
 <p>Es el <i>Ejercicio 7</i> de la  <i>asignatura</i> Aplicaciones WEB </p>
 ```
 En este caso la palabra asignatura aunque este entre <code>i</code> no funciona porque no es el primer hijo directo.<br>
-8.-
+<b>8.-</b>
