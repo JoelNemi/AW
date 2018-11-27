@@ -140,3 +140,5 @@ div:hover p {
 </body>
 </html>
 ```
+Y Tambien estan la pseudo clases de primer hijo, por ejemplo, si tienes un DIV y solo al primer hijo le quieres dar<br>
+un estado puedes con el comando <code>"div:first-child"</code>
