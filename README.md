@@ -1,6 +1,6 @@
 # AW
 ## Paginas Web
-1.-Estructura mínima de una web
+<b>1.-Estructura mínima de una web</b>
 ```html
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@
 </body>
 </html>
 ```
-2.-Explica las 3 formas de usar CSS en HTML <br>
+<b>2.-Explica las 3 formas de usar CSS en HTML </b><br>
 La primera forma es en la misma linea<br>
 -Ejemplo:
 ```html
@@ -53,7 +53,7 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 </body>
 </html>
 ```
-3.-Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
+<b>3.-Crea una lista sin ordenar con 5 ingredientes de una receta de cocina</b>
 ```html
 <ul>
 	<li>arina</li>
@@ -63,7 +63,7 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 	<li>Ajo</li>
 </ul>
 ```
-4.-Como se puede incluir javascript en HTML <br>
+<b>4.-Como se puede incluir javascript en HTML</b> <br>
  Se incorpora con la etiqueta <code><script></code> y entre los parentesis colocas el id/class para que <br>
 	identifique a que elemento tiene que ejecutarse.
 ```html
@@ -71,15 +71,17 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 	document.getElementById("Prueba").innerHTML = "Prueba JavaScript";
 </script>
 ```
-5.-¿Que diferencia hay entre una clase y una ID <br><br>
+<b>5.-¿Que diferencia hay entre una clase y una ID </b><br><br>
 	Una clase engloba varios elementos para que tengan el mismo codigo CSS, "p" y "h2" pueden tener la misma clase, <br>
 	en cambio un ID solo puede haber un ID unico que pertenezca a un elemento aparte el Id diferencia entre minusculas y <br> 
 	mayusculas, y no puede contener un espacio ni tabulaciones, al conterio que una clase.<br><br>
-6.-Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+<b>6.-Código para hacer un enlace a otra página y que esta se abra en una nueva ventana</b><br>
+	Hay que colocar el <code>target</code> y dentro seleccionar la opcion <code>_blank</code><br> 
+	para que se habra en una nueva ventana
 ```html
 <a href="https://www.google.com" target="_blank">Ejercicio 6</a> 
 ```
-7.-¿Qué son las pseudoclases?, pon ejemplos.<br><br>
+<b>7.-¿Qué son las pseudoclases?, pon ejemplos.</b><br><br>
 Se utiliza para definir un estado a un elemento. Da estilos cuando pasamos el cursor por encima del texto, cuando el enlace<br>
 ha sido visitado o cuando no han sido visitados o en una caja de texto cuando lo has seleccionado
 ```html
