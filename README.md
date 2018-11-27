@@ -159,4 +159,24 @@ Y en el p que quieres editar seria por ejemplo:
 <p>Es el <i>Ejercicio 7</i> de la  <i>asignatura</i> Aplicaciones WEB </p>
 ```
 En este caso la palabra asignatura aunque este entre <code>i</code> no funciona porque no es el primer hijo directo.<br>
+Hay mas pseudoclases con mas opciones.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th{
+border: 1px solid black 
+}
+</style>
+</head>
+<body>
+<table>
+  <tr><tr>
+    <th>Selector</th>
+    <th>Example</th>
+    <th>Example description</th>
+  </tr>
+  </table>
+</body>
+</html>
 <b>8.-</b>
