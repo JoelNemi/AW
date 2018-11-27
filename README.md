@@ -18,7 +18,7 @@ La primera forma es en la misma linea<br>
 ```html
 	<p style="color:blue;">Ejemplo de CSS en la misma linea</p>
 ```
-La segunda forma es en un <code><style><code> dentro del elemento <code><head><code> <br>
+La segunda forma es en un <code><style><code> dentro del elemento <code>head<code> <br>
 -Ejemplo:
 ```html
 <!DOCTYPE html>
@@ -141,4 +141,17 @@ div:hover p {
 </html>
 ```
 Y Tambien estan la pseudo clases de primer hijo, por ejemplo, si tienes un DIV y solo al primer hijo le quieres dar<br>
-un estado puedes con el comando <code>"div:first-child"</code>
+un estado puedes con el comando <code>div:first-child</code> en el style del HTML
+-Ejemplo:
+```html
+p i:first-child {
+    color: white;
+    background-color:black;
+    
+} 
+```
+Y en el p que quieres editar seria por ejemplo:
+```html
+<p>Es el <i>Ejercicio 7</i> de la  <i>asignatura</i> Aplicaciones WEB </p>
+```
+En este caso la palabra asignatura aunque este entre <code><i><code> no funciona porque no es el primer hijo directo.
