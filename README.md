@@ -338,9 +338,9 @@ Influye a cada elemento <code>p</code> que es el segundo hijo de su padre, conta
 <b>8.-Explica el modelo de caja de CSS (margin, border y padding)</b><br><br>
 El modelo de caja de CSS se basa en que en cada elemento contiene un conjunto de elementos que le rodean.<br>
 Esos elementos son, el mas externo es el margin, que limpia lo que haya en un area x por fuera del Border,<br>
-despues esta el Border, que esta alrededor del contenido, a continuacion esta <br>
-el padding, que es lo que hay entre el border y el contenido, se usa para desplazar y colocar<br>
-a tu gusto el contenido dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocado,<br>
+despues esta el Border, que esta alrededor del contenido, a continuacion esta el padding, que <br>
+es lo que hay entre el border y el contenido, se usa para desplazar y colocar a tu gusto el contenido <br>
+dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocado,<br>
 ya sea un DIV, una imagen o lo que sea.
 <br><br>
 <b>9.-Explica que son los selectores de CSS y pon ejemplos</b><br><br>
