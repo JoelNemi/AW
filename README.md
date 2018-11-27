@@ -18,7 +18,7 @@ La primera forma es en la misma linea<br>
 ```html
 	<p style="color:blue;">Ejemplo de CSS en la misma linea</p>
 ```
-La segunda forma es en un <code><style></code> dentro del elemento <code>"head"</code> <br>
+La segunda forma es en un <code><style></code> dentro del elemento <code>head</code> <br>
 -Ejemplo:
 ```html
 <!DOCTYPE html>
@@ -154,4 +154,5 @@ Y en el p que quieres editar seria por ejemplo:
 ```html
 <p>Es el <i>Ejercicio 7</i> de la  <i>asignatura</i> Aplicaciones WEB </p>
 ```
-En este caso la palabra asignatura aunque este entre <code>"i"</code> no funciona porque no es el primer hijo directo.
+En este caso la palabra asignatura aunque este entre <code>i</code> no funciona porque no es el primer hijo directo.
+8.-
