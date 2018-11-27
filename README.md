@@ -64,7 +64,8 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 </ul>
 ```
 4.-Como se puede incluir javascript en HTML <br>
- Se incorpora con la etiqueta <script>
+ Se incorpora con la etiqueta <code><script></code> y entre los parentesis colocas el id/class para que <br>
+	identifique a que elemento tiene que ejecutarse.
 ```html
 	<script>
 	document.getElementById("Prueba").innerHTML = "Prueba JavaScript";
