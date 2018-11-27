@@ -105,6 +105,7 @@ a:hover {
 a:active {
     color: blue;
 }
+
 </style>
 </head>
 <body>
@@ -113,3 +114,31 @@ a:active {
 </body>
 </html>
 	```
+También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p cuando el cursor esta encima del DIV<br>
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+    display: none;
+    background-color: red;
+    padding: 20px;
+    text-align:center;
+    font-size:100px;
+}
+
+div:hover p {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<div>No pases el raton por encima
+  <p>Warning!!!!</p>
+</div>
+
+</body>
+</html>
+```
