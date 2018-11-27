@@ -346,11 +346,11 @@ ya sea un DIV, una imagen o lo que sea.
 <b>9.-Explica que son los selectores de CSS y pon ejemplos</b><br><br>
 <b>Di a quien afectan:</b><br><br>
 
-<code>p a { color: red;}</code> Afecta a todas las <code>a</code> dentro de <code>p</code>
-<code>p > a { color: red; }</code> Afecta a los hijos directos <code>a</code> dentro de <code>p</code>
-<code>h1 + h2 { color: red }</code> Afecta al primer elemento <code>h2</code> despues de <code>h1</code>
+<code>p a { color: red;}</code> Afecta a todas las <code>a</code> dentro de <code>p</code> <br>
+<code>p > a { color: red; }</code> Afecta a los hijos directos <code>a</code> dentro de <code>p</code> <br>
+<code>h1 + h2 { color: red }</code> Afecta al primer elemento <code>h2</code> despues de <code>h1</code> <br>
 <code>a[class] { color: blue; }</code> El link se pone de color azul en todos los estados, y afecta<br>
-a todos los links que tengan cualquier class
+a todos los links que tengan cualquier class <br>
 <code>a[class="externo"] { color: blue; }</code> El link se pone de color azul en todos los estados, y afecta<br>
 a todos los links que tengan la class "externo"<br>
 <code>a[href="http://www.ejemplo.com"] { color: blue; }</code> Afecta al link mencionado entre la comillas
