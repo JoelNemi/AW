@@ -80,9 +80,8 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 ```
 7.-¿Qué son las pseudoclases?, pon ejemplos.<br><br>
 Se utiliza para definir un estado a un elemento. Da estilos cuando pasamos el cursor por encima del texto, cuando el enlace<br>
-ha sido visitado o cuando no han sido visitados o en una caja de texto cuando lo has seleccionado.
-	```html
-	<!DOCTYPE html>
+ha sido visitado o cuando no han sido visitados o en una caja de texto cuando lo has seleccionado
+```html
 <html>
 <head>
 <style>
@@ -116,7 +115,7 @@ a:active {
 	```
 También puedes usarlo en DIVs o en p, por ejemplo puedes hacer que aparezca el p cuando el cursor esta encima del DIV<br>
 ```html
-<!DOCTYPE html>
+
 <html>
 <head>
 <style>
