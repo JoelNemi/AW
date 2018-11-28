@@ -344,6 +344,18 @@ dentro del border.Y por ultimo el contenido, que es basicamente lo hayas colocad
 ya sea un DIV, una imagen o lo que sea.
 <br><br>
 <b>9.-Explica que son los selectores de CSS y pon ejemplos</b><br><br>
+Son nombres que indican a que elementos afecta el CSS indicado<br>
+-Ejemplio:<br><br>
+Global:<code>*</code> Afecta a todos los elementos html<br>
+*{color:red;}<br><br>
+Etiqueta:<code>Nombre.de.la.etiqueta</code>Afecta a los que tienen la etiqueta.<br>
+Nombre.de.la.etiqueta{color:red;}<br><br>
+Clase:<code>.</code>Afeca a todos los que tengan esa clase<br>
+.Nombre_de_la_clase{color:red;}<br><br>
+ID:<code>#</code>Afeca a el que tenga esa ID<br>
+#Nombre.de.la.ID{color:red;}<br><br>
+
+
 <b>10.-Di a quien afectan:</b><br><br>
 
 -<code>p a { color: red;}</code> Afecta a todas las <code>a</code> dentro de <code>p</code> <br>
