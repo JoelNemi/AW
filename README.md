@@ -32,7 +32,7 @@ p    {
 <body>
 
 <h1>Cabecera</h1>
-<p>Un paragrafo.</p>
+<p>Un parrafo.</p>
 
 </body>
 </html>
@@ -43,7 +43,7 @@ Por ultimo crear un archivo CSS y enlazarlo con el html<br>
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" type="text/CSS" href="estilos.css">
 </head>
 <body>
 
